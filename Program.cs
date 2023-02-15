@@ -14,7 +14,7 @@ namespace VariablesCS2
             Console.WriteLine($"{numberOfCupsOfCoffee}{fullName}{currentDate}");
 
             Console.WriteLine("what is your name? ");
-            string name = Console.ReadLine();
+            var name = Console.ReadLine();
 
             Console.WriteLine($"Hello, {name}, it is nice to meet you!");
 
@@ -38,8 +38,6 @@ namespace VariablesCS2
             Console.WriteLine($"{firstNumberAsString}x{secondNumberAsString}={product}");
             Console.WriteLine($"{firstNumberAsString}÷{secondNumberAsString}={quotient.ToString("N3")}");
             Console.WriteLine($"The remainder of {quotient.ToString("N3")} is {remainder}");
-
-
         }
     }
 }
